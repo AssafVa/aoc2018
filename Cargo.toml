@@ -1,0 +1,17 @@
+[package]
+name = "aoc"
+version = "0.1.0"
+authors = ["assaf <assaf@moonshot.co.il>"]
+edition = "2018"
+publish = false
+
+[profile.release]
+panic = 'abort'
+
+[profile.debug]
+panic = 'abort'
+
+[dependencies]
+#chrono = "0.4"
+#time = "0.1.40"
+#regex = "1.1.0"
